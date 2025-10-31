@@ -17,6 +17,8 @@
             color: white;
             min-height: 100vh;
             overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
         }
 
         /* Animated Background */
@@ -121,6 +123,7 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 5rem 2rem;
+            flex: 1;
         }
 
         /* Hero Section */
@@ -461,13 +464,14 @@
             background: rgba(26, 10, 46, 0.5);
             text-align: center;
             padding: 2rem;
-            margin-top: 5rem;
             color: #9ca3af;
+            margin-top: auto;
         }
 
         /* Hidden sections */
         .section {
             display: none;
+            min-height: 400px;
         }
 
         .section.active {
@@ -734,4 +738,4 @@
         });
     </script>
 </body>
-  </html>
+</html>
